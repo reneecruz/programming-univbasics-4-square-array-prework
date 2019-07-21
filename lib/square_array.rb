@@ -4,6 +4,7 @@ def square_array(array)
  
   while counter < array.length do 
     element = array[counter]
+    
     new_array << element
     counter += 1 
   end
