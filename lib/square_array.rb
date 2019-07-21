@@ -1,7 +1,7 @@
 def square_array(array)
   counter = 0 
   new_array = []
-  element = (array.first..array.last)
+  element = array.first * array.first
  
   while counter < array.length do 
     new_array << array[element] * array[element]
