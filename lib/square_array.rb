@@ -5,7 +5,7 @@ def square_array(array)
  
   while counter < array.length do 
     array.first * array.first
-    #new_array << element
+    new_array << element
     counter += 1 
   end
   return new_array
